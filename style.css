@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.chapter_List{
+    width: 60rem;
+}
+
+.chapters{
+    background-color: beige;
+    font-size: 2rem;
+}
+.chapter{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.heading{
+    list-style: none;
+    color: black;
+}
+
+.chapter:active {      
+    background-color: yellow;
+    color: black;
+}
+
+
+/* Content Style */
+
+.content{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
