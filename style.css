@@ -36,3 +36,44 @@ a{
     padding-top: 20px;
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 600px){
+    body{
+        margin: 0;
+        padding: 0;
+        display: inline;
+        
+    }
+    .chapter_List{
+        width: 100vw;
+    }
+    
+    .chapters{
+        background-color: beige;
+        font-size: 1rem;
+    }
+    .chapter{
+        color: black;
+    }
+    a{
+        text-decoration: none;
+    }
+    .heading{
+        list-style: none;
+        color: black;
+    }
+    
+    .chapter:active {      
+        background-color: yellow;
+        color: black;
+    }
+    
+    
+    /* Content Style */
+    
+    .content{
+        padding-left: 40px;
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+}
